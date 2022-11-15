@@ -41,3 +41,11 @@ function Click() {
     icon.style.right = Math.floor(Math.random() * 400) + 'px';
 
 }
+function info_ic() {
+    var text = document.getElementById('name')
+    if (text.style.display == 'none') {
+        text.style.display = "block"
+    }else{
+        text.style.display = 'none'
+    }
+  }
