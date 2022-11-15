@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(https://api.interior.ru/media/images/setka/2020_04_15/ed-05.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+    position: relative;
+
+}
+.calculator{
+    padding: 5rem;
+    width: 40%;
+}
+.bank_cal{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.bank_cal input{
+    width: 75%;
+    height: 30px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bank_cal button{
+    width: 33%;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 28px;
+}
+.calculator .bottom{
+    display: none;
+}
+.icn{
+    position: absolute;
+    color: yellow;
+    bottom: 20px;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+.icn span{
+    font-size: 20px;
+}
+.calc{
+    padding: 5rem;
+    width: 40%;
+}
+.calc input{
+    width: 75%;
+    height: 30px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.calc .btn{
+    width: 15%;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
